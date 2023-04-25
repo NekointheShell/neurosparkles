@@ -1,3 +1,6 @@
 [submodule "website"]
 	path = website
 	url = https://github.com/NekointheShell/neurosparkles-website.git
+[submodule "metrics"]
+	path = metrics
+	url = https://github.com/NekointheShell/neurosparkles-metrics.git
