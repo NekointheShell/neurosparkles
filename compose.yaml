@@ -17,8 +17,8 @@ services:
 
   metrics:
     image: metrics
-    build ./metrics
-    env_file ./env
+    build: ./metrics
+    env_file: ./env
 
     depends_on:
       - mongo
