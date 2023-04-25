@@ -9,10 +9,6 @@ services:
   website:
     image: website
     build: ./website
-    env_file: ./env
-
-    depends_on:
-      - mongo
 
 
   metrics:
